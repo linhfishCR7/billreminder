@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.lehau.BillReminder" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Bill Reminder</name>
+    <description>Bill tracking and payment reminders with recurring schedules and payment history</description>
+    <author email="dev@linhfish.com" href="https://cordova.apache.org">
+        LinhFish Development Team
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+
+    <!-- Android Platform Preferences -->
+    <preference name="android-minSdkVersion" value="33" />
+    <preference name="android-targetSdkVersion" value="35" />
+    <preference name="android-compileSdkVersion" value="35" />
+
+    <!-- Vega SDK Compatibility (v0.20 or newer) -->
+    <preference name="VegaSDKVersion" value="0.20" />
+    <preference name="VegaDeviceSupport" value="true" />
+</widget>
