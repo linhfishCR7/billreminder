@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content: https:;">
+    <title>Bill Reminder</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="header-content">
+                <div class="app-icon">🧾</div>
+                <div class="app-info">
+                    <h1 class="app-title">Bill Reminder</h1>
+                    <p class="app-subtitle">Bill tracking and payment reminders with recurring schedules and payment history</p>
+                </div>
+            </div>
+        </header>
+        
+        <main class="main-content">
+            <div class="welcome-section">
+                <div class="welcome-icon">🧾</div>
+                <h2>Welcome to Bill Reminder</h2>
+                <p class="welcome-description">Bill tracking and payment reminders with recurring schedules and payment history</p>
+                
+                <div class="features-list">
+                    <div class="feature-item">
+                            <span class="feature-icon">✨</span>
+                            <span class="feature-text">Bill tracking</span>
+                        </div><div class="feature-item">
+                            <span class="feature-icon">✨</span>
+                            <span class="feature-text">Payment reminders</span>
+                        </div><div class="feature-item">
+                            <span class="feature-icon">✨</span>
+                            <span class="feature-text">Recurring schedules</span>
+                        </div><div class="feature-item">
+                            <span class="feature-icon">✨</span>
+                            <span class="feature-text">Payment history</span>
+                        </div>
+                </div>
+                
+                <button class="get-started-btn" id="getStartedBtn">Get Started</button>
+            </div>
+            
+            <div class="app-content" id="appContent" style="display: none;">
+                <div class="content-section">
+                    <button class="back-btn" id="backBtn">
+                        <i class="fas fa-arrow-left"></i> Back
+                    </button>
+
+                    <h3>Bill Reminder is Ready!</h3>
+                    <p>This is your main app page. Explore the features below:</p>
+
+                    <div class="features-grid">
+                        <div class="feature-card">
+                                <div class="feature-number">1</div>
+                                <h4>Bill tracking</h4>
+                                <p>Tap to explore this feature</p>
+                            </div><div class="feature-card">
+                                <div class="feature-number">2</div>
+                                <h4>Payment reminders</h4>
+                                <p>Tap to explore this feature</p>
+                            </div><div class="feature-card">
+                                <div class="feature-number">3</div>
+                                <h4>Recurring schedules</h4>
+                                <p>Tap to explore this feature</p>
+                            </div><div class="feature-card">
+                                <div class="feature-number">4</div>
+                                <h4>Payment history</h4>
+                                <p>Tap to explore this feature</p>
+                            </div>
+                    </div>
+
+                    <div class="action-buttons">
+                        <button class="btn btn-primary" id="primaryAction">
+                            <i class="fas fa-rocket"></i> Primary Action
+                        </button>
+                        <button class="btn btn-secondary" id="secondaryAction">
+                            <i class="fas fa-cog"></i> Settings
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer class="footer">
+            <p>&copy; 2024 Bill Reminder. Built with Apache Cordova.</p>
+        </footer>
+    </div>
+    
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
