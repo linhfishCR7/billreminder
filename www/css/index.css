@@ -253,11 +253,60 @@ body {
 }
 
 .welcome-section,
+.introduction-page,
 .app-content {
     animation: fadeIn 0.6s ease-out;
     transition: opacity 0.3s ease, transform 0.3s ease;
     opacity: 1;
     transform: translateY(0);
+}
+
+/* Introduction Page Styles */
+.introduction-page {
+    display: none;
+}
+
+.intro-section {
+    margin: calc(var(--spacing) * 1.5) 0;
+    padding: var(--spacing);
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    border-left: 4px solid var(--primary-color);
+}
+
+.intro-section h4 {
+    color: var(--primary-color);
+    margin: 0 0 calc(var(--spacing) * 0.75) 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.intro-section p {
+    margin: 0;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+.benefits-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.benefits-list li {
+    padding: calc(var(--spacing) * 0.5) 0;
+    padding-left: calc(var(--spacing) * 1.5);
+    position: relative;
+    line-height: 1.6;
+}
+
+.benefits-list li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 /* Back Button */
