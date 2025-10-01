@@ -1,0 +1,26 @@
+{
+  "name": "Bill Reminder",
+  "short_name": "BillReminder",
+  "description": "Bill tracking and payment reminders with recurring schedules and payment history",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4A90E2",
+  "icons": [
+    {
+      "src": "img/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "orientation": "portrait",
+  "categories": [
+    "finance"
+  ],
+  "lang": "en"
+}
